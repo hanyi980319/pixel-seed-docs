@@ -1,80 +1,83 @@
 ---
-pageType: home
-
-hero:
-  name: Pixel Seed
-  text: 基于 AI 生成的 2D 像素风网页游戏
-  tagline: "用一粒 AI 种子，生长无限像素世界"
-  actions:
-    - theme: brand
-      text: 快速开始
-      link: /guide/
-    - theme: alt
-      text: 查看 PRD
-      link: /prd
-    - theme: alt
-      text: GitHub
-      link: https://github.com/pixel-seed/pixel-seed
-  image:
-    src: /rspress-icon.png
-    alt: Pixel Seed Logo
-
-features:
-  - title: 🎮 AI 驱动的游戏内容生成
-    details: 基于用户输入的主题或提示词，使用大语言模型自动生成像素风角色和场景，实现"一个种子，一个世界"的创新体验。
-    icon: 🤖
-  - title: 🎨 实时像素艺术创作
-    details: 集成 Qwen-Image 等先进的图像生成模型，支持多种主题风格，从史诗魔幻到赛博朋克，满足不同玩家的创意需求。
-    icon: 🎨
-  - title: ⚡ 即时游戏化体验
-    details: 生成的美术资源可立即用于游戏，无需等待，实现从创意到可玩游戏的无缝转换，验证 AI 作为内容引擎的潜力。
-    icon: ⚡
-  - title: 🌍 多主题世界构建
-    details: 支持预设主题（史诗魔幻、赛博朋克、西部世界、海底世界）和自定义主题，每次生成都是独特的像素宇宙。
-    icon: 🌍
-  - title: 🎯 现代 Web 技术栈
-    details: 基于 Next.js 15、Tailwind CSS、Zustand 等现代技术构建，提供流畅的用户体验和可扩展的架构设计。
-    icon: 🔧
-  - title: 📱 响应式跨平台
-    details: 完全响应式设计，支持桌面端和移动端，让玩家随时随地体验 AI 生成的像素世界。
-    icon: 📱
+title: Pixel Seed: Web-based AI-native Game Engine for Procedural Pixel Art Generation
+description: 基于Web的AI原生游戏引擎，用于程序化像素艺术生成
 ---
 
-## 🚀 项目愿景
+# Pixel Seed: Web-based AI-native Game Engine for Procedural Pixel Art Generation
 
-**Pixel Seed** 是一个实验性项目，旨在探索 AI 技术在游戏内容生成领域的应用潜力。我们相信，通过将大语言模型与图像生成技术相结合，可以创造出前所未有的游戏体验——让每个玩家都能成为自己像素世界的创造者。
+## Abstract
 
-### 核心理念
+This paper presents Pixel Seed, a web-based AI-native game engine designed for procedural pixel art generation in platformer games. Traditional game development workflows face significant constraints including engine-centric limitations, high content production overhead, and fragmented AI integration pipelines. Pixel Seed addresses these challenges by providing a unified, prompt-driven platform that seamlessly integrates AI image generation with real-time gameplay mechanics. The system enables dynamic world-building through natural language prompts, offering personalized gaming experiences while maintaining the aesthetic constraints of pixel art. Our implementation demonstrates the feasibility of web-based AI-native game engines and provides a foundation for future research in AI-assisted game development.
 
-> **"A Seed, A World."**  
-> 每一次生成，都是一次独特的创造。AI 是世界的"种子"，玩家是世界的"探索者"。
-
-### 技术创新
-
-- **AI 即内容引擎**：突破传统游戏开发中美术资源制作周期长的限制
-- **提示词驱动**：用户只需输入简单的主题描述，即可获得完整的游戏世界
-- **实时生成**：从创意到可玩游戏的端到端自动化流程
-- **风格一致性**：确保生成的角色和场景在视觉风格上保持统一
-
-## 🎯 适用场景
-
-- **游戏开发者**：快速原型验证和概念展示
-- **创意工作者**：像素艺术创作和灵感激发
-- **教育研究**：AI 在创意产业应用的案例研究
-- **游戏爱好者**：体验 AI 生成内容的无限可能性
-
-## 📊 项目状态
-
-当前项目处于 **概念验证阶段**，已实现：
-
-- ✅ 完整的 AI 生成流程
-- ✅ 多主题支持系统
-- ✅ 基础游戏交互
-- ✅ 响应式用户界面
-- 🔄 碰撞检测系统（开发中）
-- 🔄 音效系统（规划中）
-- 🔄 多关卡支持（规划中）
+**Keywords:** AI-native game engine, procedural generation, pixel art, web-based gaming, prompt-driven design
 
 ---
 
-**开始探索 Pixel Seed 的无限可能性！** 👆 点击上方"快速开始"按钮，了解如何使用 AI 创造属于你的像素世界。
+## Table of Contents
+
+1. [Introduction](#1-introduction)
+   - 1.1 [Summary](#11-summary)
+   - 1.2 [Outline](#12-outline)
+   - 1.3 [Significance](#13-significance)
+   - 1.4 [Structure](#14-structure)
+
+2. [Background](#2-background)
+   - 2.1 [Pixel Art Games](#21-pixel-art-games)
+   - 2.2 [Procedural & AI Generation](#22-procedural--ai-generation)
+   - 2.3 [AI in Games & Platformers](#23-ai-in-games--platformers)
+
+3. [Formulation of the Problem](#3-formulation-of-the-problem)
+
+4. [Formulation of the Solution](#4-formulation-of-the-solution)
+
+5. [Implementation](#5-implementation)
+
+6. [Testing](#6-testing)
+
+7. [Results and Evaluation](#7-results-and-evaluation)
+
+8. [Discussion](#8-discussion)
+
+9. [Conclusion](#9-conclusion)
+
+10. [Future Work](#10-future-work)
+
+11. [References](#11-references)
+
+12. [Appendix](#12-appendix)
+
+---
+
+## Quick Navigation
+
+- **[快速开始](/guide/)** - 了解如何使用 Pixel Seed
+- **[API 文档](/api/)** - 查看详细的接口文档
+- **[架构设计](/architecture/)** - 深入了解系统架构
+- **[部署指南](/deployment/)** - 学习如何部署项目
+- **[常见问题](/faq/)** - 查找常见问题解答
+
+---
+
+## Project Overview
+
+Pixel Seed represents a paradigm shift in game development, moving from traditional engine-centric workflows to AI-native, web-based platforms. The project demonstrates how modern AI technologies can be seamlessly integrated into game development pipelines while maintaining the artistic constraints and aesthetic appeal of pixel art games.
+
+### Key Innovation Points
+
+- **AI-Native Architecture**: Built from the ground up with AI integration as a core design principle
+- **Web-Based Delivery**: Eliminates platform-specific constraints and enables instant accessibility
+- **Prompt-Driven Design**: Natural language interface for content generation and customization
+- **Dynamic World-Building**: Real-time generation and adaptation of game environments
+- **Unified Pipeline**: Seamless integration of AI generation, asset management, and gameplay mechanics
+
+### Research Contributions
+
+1. **Architectural Innovation**: Novel web-based AI-native game engine design
+2. **Technical Implementation**: Practical solutions for AI-game integration challenges
+3. **User Experience**: Demonstration of prompt-driven game development workflows
+4. **Performance Analysis**: Evaluation of web-based game engine capabilities
+5. **Future Framework**: Foundation for next-generation AI-assisted game development tools
+
+---
+
+*Continue reading the detailed sections using the navigation links above.*
