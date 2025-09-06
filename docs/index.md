@@ -1,6 +1,6 @@
 ---
-title: Pixel Seed: Web-based AI-native Game Engine for Procedural Pixel Art Generation
-description: 基于Web的AI原生游戏引擎，用于程序化像素艺术生成
+title: "Pixel Seed: Web-based AI-native Game Engine for Procedural Pixel Art Generation"
+description: "基于Web的AI原生游戏引擎，用于程序化像素艺术生成"
 ---
 
 # Pixel Seed: Web-based AI-native Game Engine for Procedural Pixel Art Generation
