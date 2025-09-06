@@ -1,6 +1,6 @@
 # 常见问题 (FAQ)
 
-本页面收集了用户在使用 Pixel Seed 过程中最常遇到的问题和解决方案。如果你的问题没有在这里找到答案，请通过 [GitHub Issues](https://github.com/pixel-seed/pixel-seed/issues) 联系我们。
+本页面收集了用户在使用 Pixel Seed 过程中最常遇到的问题和解决方案。如果你的问题没有在这里找到答案，请通过 [GitHub Issues](https://github.com/hanyi980319/pixel-seed/issues) 联系我们。
 
 ## 🎮 使用相关问题
 
@@ -162,7 +162,7 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/pixel-seed/pixel-seed.git
+git clone https://github.com/hanyi980319/pixel-seed.git
 cd pixel-seed
 
 # 2. 安装依赖

@@ -239,10 +239,14 @@ NEXT_PUBLIC_APP_URL=https://your-domain.com
 
 我们欢迎社区贡献！你可以通过以下方式参与：
 
-1. **报告问题**：在 GitHub Issues 中报告 bug
+1. **报告问题**：在 [GitHub Issues](https://github.com/hanyi980319/pixel-seed/issues) 中报告 bug
 2. **功能建议**：提出新功能的想法和建议
-3. **代码贡献**：提交 Pull Request
+3. **代码贡献**：提交 [Pull Request](https://github.com/hanyi980319/pixel-seed/pulls)
 4. **文档改进**：完善项目文档
+
+### 项目仓库
+
+🔗 **GitHub 仓库**: [https://github.com/hanyi980319/pixel-seed](https://github.com/hanyi980319/pixel-seed)
 
 ### 开发规范
 
